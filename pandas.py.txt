@@ -1,0 +1,9 @@
+import pandas as pd
+#creating a sample DataFrame
+data={'A':[1,2,3,4,5],'B':[10,20,15,25,30]}
+df=pd.DataFrame(data)
+print(df)
+
+#using describe() to calculate summary statistics
+summary_stats=df.describe()
+print(summary_stats)
